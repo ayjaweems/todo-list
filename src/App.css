@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 50px;
+}
+
+/* input box */
+.todo-box {
+  width: 25vw;
+  height: 40px;
+  padding: 10px;
+  font-size: 20px;
+  border: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+/* button */
+.add-todo {
+  width: 40px;
+  height: 64px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+}
+
+.remove-todo {
+  width: 40px;
+  height: 64px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+}
+
+/* block that holds all of the added items for the todo list */
+.todo-list {
+  display: block;
+  margin-top: 150px;
+}
+
+.item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ol>li:before {
+  font-weight: bold
+}
+
+.item-text {
+  height: 35px;
+  width: 317.67px;
+  padding: 12.5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  vertical-align: middle;
+}
+
+.todo-result-box {
+  display: inline-flex;
+  height: 64px;
+  width: 382.67px;
+}
