@@ -5,3 +5,4 @@ This todo application has simple add and remove functionality for items on a tod
 
 ## Visuals
 Here is a clip of the application's intended use:
+![](todo-list-gif.gif)
